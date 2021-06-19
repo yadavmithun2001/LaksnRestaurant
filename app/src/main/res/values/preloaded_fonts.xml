@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/archivo_black</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/bungee</item>
+        <item>@font/candal</item>
+        <item>@font/kavoon</item>
+        <item>@font/paprika</item>
+        <item>@font/vidaloka</item>
+        <item>@font/voces</item>
+        <item>@font/yantramanav_thin</item>
+    </array>
+</resources>

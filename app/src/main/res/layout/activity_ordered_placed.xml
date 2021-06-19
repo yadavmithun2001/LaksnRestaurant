@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".OrderedPlaced">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_marginTop="80sp"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="ORDER PLACED "
+           android:textColor="#449808"
+           android:textSize="25sp"
+           android:textStyle="bold" />
+
+       <ImageView
+           android:id="@+id/imageView15"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           app:srcCompat="@drawable/tick" />
+
+   </LinearLayout>
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Your Order is On the Way"
+        android:textSize="20sp"
+        android:textColor="#449808"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:text="Please Wait"
+        android:textSize="16sp"
+        android:textColor="@color/ic_launcher_background" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="You will get Your Order with in"
+            android:textSize="16sp"
+            android:textColor="@color/ic_launcher_background"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TIME"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textColor="#2B800D"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="normal"
+        android:textColor="@color/ic_launcher_background"
+        android:text=" Profile Details">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="@color/ic_launcher_background"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tableno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Table"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textColor="#2B800D" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="normal"
+        android:textColor="@color/ic_launcher_background"
+        android:text=" Order Details"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/namefood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="@color/ic_launcher_background"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Table"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2B800D" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Total"
+            android:textSize="18sp"
+            android:textColor="@color/ic_launcher_background" />
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Table"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_rupee_indian"
+            android:textColor="#2B800D" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:divider="@color/white"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/orderagain"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@drawable/backtext"
+            android:text="ORDER AGAIN" />
+
+        <TextView
+            android:id="@+id/paybill"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:background="@drawable/backtext"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="40dp"
+            android:text="PAYBILL" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:divider="@color/white"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/vieworders"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:background="@drawable/backtext"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="40dp"
+            android:text="VIEW ALL ORDERS" />
+    </LinearLayout>
+
+</LinearLayout>
